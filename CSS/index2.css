@@ -2,7 +2,7 @@ body{
 	padding: 0 2%;
 	margin: 0;
 	font-family: 'Source Sans Pro', sans-serif;
-    background-image: url(/Images/logo-entreprise2.png);
+    background-image: url(../Images/logo-entreprise2.png);
 }
 /********************BARRE DE NAVIGATION********************/
 nav{
@@ -30,6 +30,11 @@ nav{
 	font-size: 15px;
 }
 
+nav a:hover{
+    color:orange;
+    border-bottom: 2px solid gold;
+}
+ 
 nav ul{
 	display: flex;
 	list-style: none;
