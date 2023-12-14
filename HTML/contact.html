@@ -2,61 +2,56 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Contact ">
-    <meta name="author" content="CLAIRON Anthony,Rayan,KABA Ibrahima">
-    <link rel="stylesheet" type="text/css" href="contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #FC9829;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <header id="mainHeader">
-        <h1>Contact</h1>
-        <nav id="mainNav">
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </nav>
-        <button id="menuToggle"><img src="hamburgerMenu"alt="toReduceMenu"/></button>
-    </header><!--fin du #mainHeader-->
-    <main id="pageContent">
-        <h1>Contactez-nous</h1>
-        <p>Merci de compléter le formulaire suivant pour nous contacter. Tous les champs de ce formulaore sont requis.</p>
-        <form id="frmContact" action="merci.html">
-            <div>
-                <div>
-                    <label for="fName">Prénom</label>
-                    <input type="text" name="fName" id="fName"/>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <label for="lName">Nom de famille</label>
-                    <input type="text" name="lName" id="lName"/>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <label for="email">Votre e-mail</label>
-                    <input type="email" name="emaile" id="email"/>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <label for="message">Votre message</label>
-                    <textarea name="message" id="message"></textarea>
-                </div>
-            </div>
+    <div class="container">
+        <h2>Contactez-nous</h2>
+        <div class="contact-info">
+            <p><strong>Téléphone:</strong> +33 1 01 01 01 01</p>
+            <p><strong>Email:</strong> bountytech01@gmail.com</p>
+        </div>
+        <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre Email" required>
+            <textarea name="message" placeholder="Votre Message" required></textarea>
+            <input type="submit" value="Envoyer le Message">
         </form>
-    </main><!--fin du #pageContent-->
-    <footer id="mainFooter">
-        <link><a href="copyrights&MentionLegalPolitiqueDeConfidentialité.html">Copyrights BountyTech 2023</a>
-    </footer><!--fin du #mainFooter-->
+    </div>
 </body>
 </html>
