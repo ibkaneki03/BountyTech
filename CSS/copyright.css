@@ -5,6 +5,7 @@ body{
     background-image: url(../Images/logo-entreprise2.png);
 	background-size: cover;
 }
+main{color: antiquewhite;}
 /********************BARRE DE NAVIGATION********************/
 nav{
 	display: flex;
