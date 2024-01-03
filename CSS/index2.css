@@ -77,3 +77,9 @@ nav ul li ul{
     background-color 250ms;
 }
 
+/* FOOTER */
+footer {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
