@@ -12,6 +12,13 @@ body {
 }
 
 /* HEADER */
+body{
+	padding: 0 2%;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(../Images/logo-entreprise2.png);
+}
+/********************BARRE DE NAVIGATION********************/
 nav{
 	display: flex;
 	flex-wrap: wrap;
