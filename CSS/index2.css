@@ -52,6 +52,13 @@ nav ul li ul{
 	display: none;
 	border-bottom-color: none;
 }
+h3 {
+	padding-top: 3%;
+	font-size: 78px;
+	color: silver;
+	text-align: center;
+}
+
 .button1 {
     display: inline-block;
     text-decoration: none;
