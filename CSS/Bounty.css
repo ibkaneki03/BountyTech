@@ -9,6 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-size: cover;
 }
 
 /* HEADER */
@@ -19,6 +20,9 @@ body{
     background-image: url(../Images/logo-entreprise2.png);
 }
 /********************BARRE DE NAVIGATION********************/
+a {
+    text-decoration: none;  
+  }
 nav{
 	display: flex;
 	flex-wrap: wrap;

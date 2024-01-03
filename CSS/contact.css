@@ -3,6 +3,7 @@ body{
 	margin: 0;
 	font-family: 'Source Sans Pro', sans-serif;
     background-image: url(../Images/logo-entreprise2.png);
+	background-size: cover;
 }
 /********************BARRE DE NAVIGATION********************/
 nav{
@@ -14,6 +15,9 @@ nav{
 	position: sticky;
 	top: 0;
 }
+a {
+	text-decoration: none;  
+  }
 .profil{
 	display: flex;
 	align-items: center;
