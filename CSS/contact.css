@@ -4,7 +4,6 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
     background-image: url(../Images/logo-entreprise2.png);
 	background-size: cover;
-	color: antiquewhite;
 }
 /********************BARRE DE NAVIGATION********************/
 nav{
@@ -80,6 +79,9 @@ nav ul li ul{
     transition: translate 100ms 
     cubic-bezier(0.175, 0.885, 0.32, 1.275),
     background-color 250ms;
+}
+.container {
+	color: white;
 }
 /* FOOTER */
 footer {
