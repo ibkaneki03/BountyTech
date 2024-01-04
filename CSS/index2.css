@@ -1,10 +1,10 @@
 body{
 	padding: 0 2%;
 	margin: 0;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family:Georgia, 'Times New Roman', Times, serif;
     background-image: url(../Images/logo-entreprise2.png);
 	background-size: cover;
-	
+	background-position: center;
 }
 /********************BARRE DE NAVIGATION********************/
 nav{
@@ -57,7 +57,7 @@ nav ul li ul{
 h3 {
 	padding-top: 3%;
 	font-size: 78px;
-	color: silver;
+	color: antiquewhite;
 	text-align: center;
 }
 
@@ -85,7 +85,15 @@ h3 {
     cubic-bezier(0.175, 0.885, 0.32, 1.275),
     background-color 250ms;
 }
-
+main{
+	color: antiquewhite;
+	text-align: center;
+	font-size: 125%;
+}
+main img{
+	display: center;
+	padding-top: 2%;
+}
 /* FOOTER */
 footer {
     padding: 20px;
