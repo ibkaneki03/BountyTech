@@ -18,7 +18,8 @@ nav{
 	top: 0;
 }
 a {
-	text-decoration: none;  
+	text-decoration: none;
+	color: #120817;  
   }
 .profil{
 	display: flex;
@@ -36,10 +37,6 @@ a {
 	font-size: 15px;
 }
 
-nav a:hover{
-    color:orange;
-    border-bottom: 2px solid gold;
-}
  
 nav ul{
 	display: flex;
